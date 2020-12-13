@@ -115,7 +115,7 @@ body {
     border-radius: 0 50px 50px 0;
 }
 
-.prev:after, .next:after {
+.prev::after, .next::after {
     content: "";
     position: absolute;
     height: 100%;
@@ -123,11 +123,11 @@ body {
     background: no-repeat center;
 }
 
-.prev:hover {
+.prev::after {
     background: url(images/icon-prev.svg) no-repeat center;
 }
 
-.next:hover {
+.next::after {
     background: url(images/icon-next.svg) no-repeat center;
 }
 
